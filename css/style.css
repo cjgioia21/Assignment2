@@ -1,0 +1,94 @@
+/*Chris Gioia 987654*/
+body{
+    font : normal normal normal 20px/1.5 Verdana, Arial, Helevtica;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsla(130, 51%, 20%, 0.71)
+}
+h2{
+    font-size: 2rem;
+    color: #f7f;
+}
+header{
+    background-color: hsl(253, 52%, 32%);
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+nav ul li a{
+    border: 2px solid indigo;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 4px;
+}
+nav ul li a:hover{
+    border: 2px solid cornsilk;
+    color: cornsilk;
+    background-color: indigo;
+} 
+main{
+    float: left;
+    width : 65vw;
+    background-color: hsl(125, 70%, 80%);
+    height: 60vh;
+}
+aside{
+    float: right;
+    width : 25vw;
+    background-color: hsl(19, 90%, 20%);
+    height: 60vh;
+}
+footer{
+    clear: both;
+    background-color: hsl(80, 99%, 70%);
+}
+.structural{
+    margin : 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+#para1{
+    color: rgb(123, 45, 17);
+}
+#para2{
+    color: rgb(98, 42, 102);
+}
+form{
+    border: 5px dashed yellowgreen;
+}
+input[type=text], input[type=email], input[type=submit], select, option{
+    display: block;
+    width: 50%;
+    height: 2em;
+}
+input[type=radio], input[type=checkbox]{
+    height: 2em;
+    width: 2ems;
+}
+select, option, label, legend{
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+textarea{
+    width: 50%;
+    display: block;
+}
+fieldset{
+    border: none;
+}
+aside a:hover{
+    color: #876;
+}
+footer p{
+    font-size: .75em;
+}
+aside li {
+line-height: 1.5rem;
+color: rgba(150, 200, 30, .5);
+}
+aside ul{
+    list-style-type: square;
+}
