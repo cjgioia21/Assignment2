@@ -7,15 +7,15 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: hsla(130, 51%, 20%, 0.71)
+    background-color: cornsilk
 }
 h2{
     font-size: 2rem;
-    color: #f7f;
+    color: red;
 }
 header{
     flex: 1 10%;
-    background-color: hsl(253, 52%, 32%);
+    background-image: linear-gradient(to bottom right, red, yellow);
 }
 nav{
     flex: 1 5%;
@@ -27,28 +27,28 @@ nav ul li{
 nav ul li a{
     border: 2px solid indigo;
     color: indigo;
-    background-color: cornsilk;
+    background-color: white;
     text-decoration: none;
     padding: 1em;
 }
 nav ul li a:hover{
-    border: 2px solid cornsilk;
-    color: cornsilk;
+    border: 2px solid white;
+    color: white;
     background-color: indigo;
 } 
 main{
     flex: 2 1 70%;
-    background-color: hsl(125, 70%, 80%);
+    background-color: white;
     height: 60vh;
 }
 aside{
     flex: 1 2 30%;
-    background-color: hsl(19, 90%, 20%);
+    background-color: white;
     height: 60vh;
 }
 footer{
     flex: 1 5%;
-    background-color: hsl(80, 99%, 70%);
+    background-color:whitesmoke;
 }
 .structural{
     margin : 1rem;
@@ -56,13 +56,14 @@ footer{
     border: 2px solid black;
 }
 #para1{
-    color: rgb(123, 45, 17);
+    color: black
 }
 #para2{
-    color: rgb(98, 42, 102);
+    color: black
 }
 form{
     border: 5px dashed yellowgreen;
+    font: small-caps;
 }
 input[type=text], input[type=email], input[type=submit], select, option{
     display: block;
@@ -88,8 +89,8 @@ fieldset{
 aside a:hover{
     color: #876;
 }
-footer p{
-    font-size: .75em;
+footer{
+    background-image: linear-gradient(to bottom right, red, yellow);
 }
 aside li {
 line-height: 1.5rem;
@@ -108,12 +109,13 @@ section{
 }
 #gallery{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 img{
-    width: 80%;
-    height: 80%;
-
-    
+    width: 90%;
+    height: 90%;
 }
+table, td {
+    border:1px solid black;
+  }
